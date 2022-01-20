@@ -1,0 +1,8 @@
+env: mpe_env
+scenario_name: simple_tag
+episode_limit: 25
+t_max: 5000000 
+opponent_algo: maddpg
+load_opponent_model_episode: 10000
+seed: 0
+dir: ./results
